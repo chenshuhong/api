@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/chenshuhong/api#readme",
   "dependencies": {
+    "body-parser": "latest",
     "express": "^4.17.1",
     "morgan": "^1.9.1",
-    "body-parser": "latest"
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.12"
   }
 }
