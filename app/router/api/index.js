@@ -1,6 +1,5 @@
-const categoryApi = require('./category')
-module.exports = function () {
-  const router = require('express').Router()
-  router.use('/category',categoryApi)
-  return router
-}
+const categoryApi = require('./category');
+const router = require('express').Router();
+router.use('/category',categoryApi);
+
+module.exports = router;
