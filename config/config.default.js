@@ -6,6 +6,9 @@ module.exports = {
     "database": "baiye",
     "host": "localhost",
     "port": 3307,
-    "dialect":'mysql'
+    "dialect":'mysql',
+    "define":{
+      freezeTableName: true,
+    }
   }
 }
