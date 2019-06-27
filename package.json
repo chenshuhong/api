@@ -4,14 +4,14 @@
   "description": "接口提供",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "pm2 start ecosystem.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chenshuhong/api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["express"],
+  "author": "csh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chenshuhong/api/issues"
