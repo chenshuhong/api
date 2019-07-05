@@ -9,7 +9,7 @@ router.use(function (req,res,next) {
 router.use('/v1',apiV1);
 router.use(function (req,res) {
   res.status(404).json({
-    message:'api not found'
+    msg:'api not found'
   })
 })
 
