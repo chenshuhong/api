@@ -9,6 +9,12 @@ module.exports = {
     return Category
       .findAll()
       .then(categorys => {
+        categorys = [
+          {
+            id:1,
+            name:'手机'
+          }
+        ]
         res.json({
           code:0,
           data:categorys

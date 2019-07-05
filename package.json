@@ -4,7 +4,11 @@
   "description": "接口提供",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ecosystem.config.js"
+    "dev":"node index.js",
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 stop all",
+    "log": "pm2 log",
+    "delete": "pm2 delete all"
   },
   "repository": {
     "type": "git",
